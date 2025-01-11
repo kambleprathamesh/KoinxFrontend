@@ -5,7 +5,7 @@
 }
 
 .logoContainer img {
-  @apply w-[100px] h-[60px] md:w-[100px] md:h-[60px]  object-contain;
+  @apply w-[100px] h-[60px] md:w-[100px] md:h-[60px]  object-cover ;
 }
 
 .navtabs {
