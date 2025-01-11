@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.headerContainer {
+  @apply w-full h-[60px] md:w-full md:h-[70px]  flex justify-between pl-10 pr-10 items-center gap-20 bg-white;
+}
+
+.logoContainer img {
+  @apply w-[100px] h-[60px] md:w-[100px] md:h-[60px]  object-contain;
+}
+
+.navtabs {
+  @apply hidden  md:flex  justify-center items-center gap-4 w-1/2 text-[16px] font-semibold pl-48;
+  @layer font-inter;
+}
+
+.speciaBtn button{
+    @apply w-[136px] h-10 bg-gradient-to-t from-[#2870EA] to-[#1B4AEF] text-white rounded-lg p-2
+}
